@@ -1,0 +1,1 @@
+<div id="account-loading" class="loading"></div>

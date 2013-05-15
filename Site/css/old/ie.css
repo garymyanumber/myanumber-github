@@ -1,0 +1,364 @@
+#details{
+width:684px;
+clear:both;
+margin:20px auto;
+background-image:url(../images/details-bg_03.png);
+background-repeat:repeat;
+border-radius:5px;
+-moz-border-radius:5px;
+-webkit-border-radius:5px;
+-khtml-border-radius:5px;
+border-left:1px solid #777;
+border-right:1px solid #777;
+border-bottom:1px solid #777;
+}
+
+.tabs ul li.inactive{
+ background-image:url(../images/blck-bg_03.png);
+ background-repeat:repeat;
+border:1px solid #504031;
+}
+.tab-content li{
+display:block;
+clear:both;
+width:100%;
+line-height:57px;
+padding:0 0 0 20px;
+color:#999999;
+ background-image:url(../images/mya-scroll-arrow_06.png); 
+ background-repeat:no-repeat;
+ background-position: 94% 50%;
+}
+.tab-content input.search,
+.content-support input.search{
+ background-image:url(../images/search_03.png); 
+  background-repeat:no-repeat;
+ background-position:4% 50%;
+border-radius:8px;
+-moz-border-radius:8px;
+-webkit-border-radius:8px;
+-khtml-border-radius:8px;
+padding: 5px 27px;
+width: 130px;
+box-shadow:inset 0 0 2px 1px #E3E3E3;
+-webkit-box-shadow:inset 0 0 2px 1px #E3E3E3;
+-moz-box-shadow:inset 0 0 2px 1px #E3E3E3;
+border: 1px solid #E3E3E3;
+color:#999999;
+}
+.tab-content input{
+filter:
+	 progid:DXImageTransform.Microsoft.dropshadow(OffX=0, OffY=0, Color='#B3B3B3', Positive='true'),
+	progid:DXImageTransform.Microsoft.Shadow(Color=#B3B3B3, Strength=3, Direction=0),/**top**/
+         progid:DXImageTransform.Microsoft.Shadow(Color=#B3B3B3, Strength=2, Direction=90),/**right**/
+         progid:DXImageTransform.Microsoft.Shadow(Color=#B3B3B3, Strength=2, Direction=180),/**bottom**/
+		progid:DXImageTransform.Microsoft.Shadow(Color=#B3B3B3, Strength=2, Direction=270);/**left**/
+	zoom: 1;
+}
+#footer{
+ background-image:url(../images/blck-bg_03.png); 
+   background-repeat:repeat;
+ line-height:59px;
+ width:100%;
+ margin:9.5% 0 0 0;
+ float:left;
+ font-size:13px;
+}
+.learn a{
+color: #999999;
+background-image:url(../images/learn_arrow_07.png);
+  background-repeat:no-repeat;
+ background-position:100% 50%;
+    padding: 0 15px 0 0; 
+}
+.acc-reg3 .tab-content{
+overflow-y:hidden;
+}
+
+.splash-scrn .buttons ul li a {
+padding:0 9px;
+background-image:url(../images/buttons_05.png);
+   background-repeat:no-repeat;
+color:transparent;
+font-size:0;
+width:8px;
+height:7px;
+float:left;
+}
+.content-learn .buttons ul li a{
+background-image:url(../images/buttons_05.png);
+background-repeat:no-repeat;
+color:transparent;
+font-size:0;
+width:8px;
+height:7px;
+padding:0 5px;
+float:left;
+}
+.content-learn .buttons ul li a.active,.splash-scrn .buttons ul li a.active{
+background-image:url(../images/buttons_03.png);
+background-repeat:no-repeat;
+background-color:transparent;
+z-index:1000;
+position:relative;
+width:8px;
+height:7px;
+}
+.content-learn  .buttons ul li a:hover,.splash-scrn .buttons ul li a:hover {
+background-image:url(../images/buttons_03.png);
+background-repeat:no-repeat;
+z-index:1000;
+position:relative;
+width:8px;
+height:7px;
+}
+.content-support input.search{
+background-image:url("../images/search_03.png");
+ background-repeat:no-repeat;
+ background-position: 4% 50%;
+ background-color: #fff;
+border-radius:10px;
+-moz-border-radius:10px;
+-webkit-border-radius:10px;
+-khtml-border-radius:10px;
+}
+.overlay #overlay{
+width:100%;
+float:left;
+margin:-63px 0 0 0;
+padding:0 0 10px 0;
+background-image:url("../images/overlay-bg_03.png");
+ background-repeat:repeat;
+}
+.tabs ul li.color1 a{
+background-image:url("../images/users-bg_03.png");
+ background-repeat:no-repeat;
+ background-position:0% 50%;
+}
+.tabs ul li.color2{background:#C1D278;}
+.tabs ul li.color2 a{
+background-image:url("../images/users-bg_05.png");
+ background-repeat:no-repeat;
+ background-position:0% 50%;
+}
+.tabs ul li.color3{background:#242424;}
+.tabs ul li.color3 a{
+background-image:url("../images/users-bg_07.png");
+ background-repeat:no-repeat;
+ background-position:0% 50%;
+}
+.tabs ul li.color4{background:#CD5755;}
+.tabs ul li.color4 a{
+background-image:url("../images/users-bg_09.png");
+ background-repeat:no-repeat;
+ background-position: 0% 50%;
+}
+.tabs ul li.color5{background:#8BCCDD;}
+.tabs ul li.color5 a{
+background-image:url("../images/users-bg_11.png");
+ background-repeat:no-repeat;
+ background-position: 0% 50%;
+padding:6px 0 12px 30px;
+}
+
+#calls a.call{
+float:right;
+background-image:url("../images/begin-call_03.png");
+ background-repeat:no-repeat;
+ background-position: 18% 50%;
+ background-color: #F8892A;
+border:1px solid #D26F1B;
+color:#fff;
+padding:8px 40px;
+border-radius:5px;
+-moz-border-radius:5px;
+-webkit-border-radius:5px;
+-khtml-border-radius:5px;
+font-weight:bold;
+}
+.history #details div,
+.active #details div,
+.msg #details div,
+body.locator #details div,
+.overlay #details div,
+.history-ans #details div{
+float:left;
+display:block;
+clear:both;
+width:97.7%;
+padding:15px 0 15px 20px;
+color:#C2C2C2;
+ background-image:url(../images/mya-scroll-arrow_06.png); 
+  background-repeat:no-repeat;
+ background-position: 97% 50%;
+}
+.history #details h3,
+body.locator #details h3,
+.msg #details h3,
+.page-break #details h3,
+.active #details h3,
+.overlay #details h3,
+.history-ans #details h3{
+ background-image:url(../images/call_history-bg_03.png);
+   background-repeat:repeat-x;
+color:#666666;
+line-height:34px; 
+padding:0 10px;
+border-bottom:1px solid #CDCDCD; 
+border-radius:5px 5px 0 0;
+-moz-border-radius:5px 5px 0 0;
+-webkit-border-radius:5px 5px 0 0;
+-khtml-border-radius:5px 5px 0 0;
+}
+
+.chat1 #text #top{
+ background-image:url(../images/SMS-bg_03.png); 
+   background-repeat:no-repeat;
+ width:347px;
+ height:13px;
+}
+.chat1 #text #center{
+ background-image:url(../images/SMS-bg_05.png); 
+   background-repeat:repeat;
+ width:347px;
+}
+.chat1 #text #bottom{
+ background-image:url(../images/SMS-bg_07.png); 
+   background-repeat:no-repeat;
+ width:347px;
+ height:34px;
+}
+
+.chat2 #text #top{
+ background-image:url(../images/SMS-bg_10.png); 
+    background-repeat:no-repeat;
+ width:320px;
+ height:14px;
+}
+
+.chat2 #text #center{
+ background-image:url(../images/SMS-bg_12.png); 
+    background-repeat:repeat;
+ width:320px;
+}
+.chat2 #text #bottom{
+ background-image:url(../images/SMS-bg_14.png); 
+    background-repeat:no-repeat;
+ width:320px;
+ height:31px;
+}
+
+
+.chat3 #text #top{
+ background-image:url(../images/SMS-bg_17.png); 
+     background-repeat:no-repeat;
+ width:345px;
+ height:12px;
+}
+.chat3 #text #center{
+ background-image:url(../images/SMS-bg_19.png); 
+    background-repeat:repeat;
+ width:345px;
+}
+.chat3 #text #bottom{
+ background-image:url(../images/SMS-bg_21.png); 
+     background-repeat:no-repeat;
+ width:345px;
+  height:33px;
+}
+
+
+.chat4 #text #top{
+ background-image:url(../images/SMS-bg_24.png); 
+     background-repeat:no-repeat;
+ width:230px;
+ height:13px;
+}
+.chat4 #text #center{
+ background-image:url(../images/SMS-bg_25.png); 
+    background-repeat:repeat;
+ width:230px;
+} 
+.chat4 #text #bottom{
+ background-image:url(../images/SMS-bg_26.png); 
+     background-repeat:no-repeat;
+ width:230px;
+ height:34px;
+}
+
+
+.chat5 #text #top{
+ background-image:url(../images/SMS_2_05.png); 
+     background-repeat:no-repeat;
+ width:346px;
+ height:10px;
+}
+.chat5 #text #center{
+ background-image:url(../images/SMS_2_07.png); 
+    background-repeat:repeat;
+ width:346px;
+}
+.chat5 #text #bottom{
+ background-image:url(../images/SMS_2_09.png); 
+     background-repeat:no-repeat;
+ width:346px;
+ height:31px;
+}
+
+.chat6 #text #top{
+ background-image:url(../images/SMS_2_16.png); 
+     background-repeat:no-repeat;
+ width:321px;
+ height:11px;
+}
+.chat6 #text #center{
+ background-image:url(../images/SMS_2_18.png); 
+    background-repeat:repeat;
+ width:321px;
+}
+
+.chat6 #text #bottom{
+ background-image:url(../images/SMS_2_20.png); 
+     background-repeat:no-repeat;
+ width:321px;
+ height:32px;
+}
+
+
+.mapping #content .tabs{
+ background-image:url(../images/user-bg.png); 
+    background-repeat:repeat;
+}
+
+.popup #top{
+ background-image:url(../images/Map-popup-bg_06.png); 
+     background-repeat:no-repeat;
+ width:188px;
+ height:20px;
+ float:left;
+ clear:both;
+}
+.popup #center{
+ background-image:url(../images/Map-popup-bg_09.png); 
+    background-repeat:repeat;
+ width:188px;
+ float:left;
+ clear:both;
+}
+.popup #bottom{
+ background-image:url(../images/Map-popup-bg_15.png); 
+     background-repeat:no-repeat;
+ width:188px;
+ height:32px;
+ float:left;
+ clear:both;
+}
+input.refresh{
+ background-image:url(../images/Map-refrsh-btn_03.png); 
+     background-repeat:no-repeat;
+ width:135px;
+ height:34px;
+ float: left;
+ clear:both;
+ margin: 0 0 27px 35px;
+}

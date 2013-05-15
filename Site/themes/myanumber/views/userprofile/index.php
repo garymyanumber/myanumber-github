@@ -1,0 +1,1 @@
+<h1 style="color: #FFF">Myanumber: <?php echo $model->provisioned_number; ?></h1>

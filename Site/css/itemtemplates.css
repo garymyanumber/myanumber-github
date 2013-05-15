@@ -1,0 +1,119 @@
+.list-item {
+
+}
+.list-item .top-info {
+    float: right;
+}
+.list-item .list-item-top {
+    width: 744px;
+    height: 35px;
+    background: transparent url('../images/list_menu_top.png') 0 0 no-repeat;
+}
+.list-item .list-item-middle {
+    width: 744px;
+    background: transparent url('../images/container_middle.png') 0 0 repeat-y;
+}
+.list-item .list-item-bottom {
+    width: 744px;
+    height: 6px;
+    background: transparent url('../images/list_menu_bottom.png') 0 0 no-repeat;
+}
+.list-item-top h2 {
+    color: #666;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 10px 0 10px 20px;
+}
+.list-item .list-item-items {
+    background: #FFF;
+    border-left: 1px solid #dedfe0;
+    border-right: 1px solid #dedfe0;
+}
+.list-item .list-item-item {
+    width: 744px;
+    height: 76px;
+    border-top: solid 1px #dedfe0;
+    position: relative;
+}
+.list-item-item h2 {
+    font-weight: bold;
+    color: #666;
+    font-size: 14px;
+    padding: 20px 0 5px 20px;
+}
+.list-item-item p {
+    font-size: 14px;
+    color: #999;
+    padding-left: 20px;
+}
+.list-item-item .time {
+    font-size: 14px;
+    color: #999;
+    padding-left: 20px;
+    position: absolute;
+    top: 32px;
+    right: 50px;
+}
+.list-item-item .arrow {
+    background: transparent url('../images/arrow_right_grey.png') 0 0 no-repeat;
+    position: absolute;
+    top: 33px;
+    right: 22px;
+    width: 9px;
+    height: 13px;
+}
+
+.contacts {
+    width: 744px;
+    padding: 20px 0;
+}
+.contacts .contacts-top {
+    width: 744px;
+    height: 5px;
+    background: transparent url('../images/container_top.png') 0 0 no-repeat;
+}
+.contacts .contacts-middle {
+    width: 744px;
+    background: transparent url('../images/container_middle.png') 0 0 repeat-y;
+}
+.contacts .contacts-bottom {
+    width: 744px;
+    height: 5px;
+    background: transparent url('../images/container_bottom.png') 0 0 no-repeat;
+}
+.contacts .contact, #overlay .contact {
+    width: 132px;
+    height: 46px;
+    float: left;
+    margin: 5px 8px;
+    cursor: pointer;
+}
+.contacts .contact:hover, #overlay .contact:hover {
+    background-position: 0 -46px;
+}
+.contacts .contact .cname, #overlay .contact .cname {
+    color: #FFF;
+    padding: 15px 0 0 35px;
+    font-size: 14px;
+}
+.contacts .contact.selected, #overlay .contact.selected {
+    background-position: 0 -46px;
+}
+.contacts .c1, #overlay-middle .c1 {
+    background: transparent url('../images/contact_assets.png') 0 0 no-repeat;
+}
+.contacts .c2, #overlay-middle .c2 {
+    background: transparent url('../images/contact_assets.png') -132px 0 no-repeat;
+}
+.contacts .c3, #overlay-middle .c3 {
+    background: transparent url('../images/contact_assets.png') -264px 0 no-repeat;
+}
+.contacts .c4, #overlay-middle .c4 {
+    background: transparent url('../images/contact_assets.png') -396px 0 no-repeat;
+}
+.contacts .c5, #overlay-middle .c5 {
+    background: transparent url('../images/contact_assets.png') -528px 0 no-repeat;
+}
+.contacts .cadd, #overlay-middle .cadd {
+    background: transparent url('../images/contact_assets.png') -528px 0 no-repeat;
+}
